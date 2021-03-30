@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: true
+  become: True
   vars:
     - apt_file: /etc/apt/sources.list.d/google-chrome.list
   tasks:
